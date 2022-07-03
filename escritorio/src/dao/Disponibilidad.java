@@ -2,12 +2,12 @@ package dao;
 
 import java.util.ArrayList;
 
-import entidad.Habitacion;
+import entidad.Disponibilidad;
 
-public interface HabitacionDao {
-	public boolean Agregar(Habitacion tipo);
-	public ArrayList<Habitacion> ListarTodo();
-	public Habitacion ObtenerObjeto(int id);
+public interface DisponibilidadDao {
+	public boolean Agregar(Disponibilidad disponibilidad);
+	public ArrayList<Disponibilidad> ListarTodo();
+	public Disponibilidad ObtenerObjeto(int id);
 	public boolean Eliminar(int id);
-	public boolean Modificar(Habitacion habitacion);
+	public boolean Modificar(Disponibilidad disponibilidad);
 }
